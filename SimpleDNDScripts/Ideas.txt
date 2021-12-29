@@ -1,0 +1,7 @@
+create a class that I can have fight to test who wins with an ASI vs a feat
+
+Write a program that compares 2 attacks and GWM vs 3 attacks.
+
+write a program that compares the defense fighting style agains GWF and dueling style
+
+compare Savage attacker to ASI
