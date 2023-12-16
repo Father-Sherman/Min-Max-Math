@@ -1,4 +1,4 @@
-# this script shows when someone should use great weapon master
+# this script shows when someone should use a great oversized longbow
 
 import random
 
@@ -21,7 +21,6 @@ damageDie = 6
 damage = 0
 damageGOLB = 0
 attackModGOLB = -5
-damageModGOLB = 10
 
 
 for i in range(25):
@@ -55,6 +54,6 @@ for i in range(25):
     totalHits = 0
     totalHitsGOLB = 0
 
-
-# take the attack modifier + 11 and that is about the tipping point: attack bonus 5. 5+11 = 16-17 is the tipping point.
-# there is some variation with str vs prof being higher. just plug in the numbers to tell for sure.
+# a rule of thumb on when to use two arrows is to take your attack bonus and add 8 to it. For example:
+# Attack bonus 5. 5+8 = 13 When the enemies AC is 13 or lower you will do more damage using two arrows
+# But if their AC is Greater than 13 you will do less damage with two arrows.
